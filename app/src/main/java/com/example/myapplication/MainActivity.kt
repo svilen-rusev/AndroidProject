@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
 
         binding.tipResult.text = getString(R.string.tip_amount, formattedTip)
+        //Just Ading some comment
 
     }
 }
